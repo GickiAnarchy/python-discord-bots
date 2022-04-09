@@ -2,12 +2,9 @@ from mtgsdk import Card, Set, Type, Subtype, Supertype
 import nextcord
 from nextcord.ext import commands
 from nextcord import Interaction, SlashOption
-import os
-import asyncio
-import time
-import random
+import os, asyncio, random, time
 from mtgcard import MTGCard, MTGList
-
+import datetime
 
 
 thisfolder = os.path.abspath(os.path.dirname(__file__))
@@ -17,7 +14,7 @@ setspath = f"{thisfolder}/sets/"
 class MTGCog(commands.Cog):
     def __init__(self, client):
         self.client = client
-        self.sets = []
+        self.sets = None
         self.codes = []
         self.cards = []
         self.cardsWrap = []
@@ -25,15 +22,24 @@ class MTGCog(commands.Cog):
         self.isCards = False
         self.myCard = None
         self.saveList = MTGList()
-        
+        self.codenames = []
+        self.nameindex = 0
+        self.setupVars()       
 
+
+
+    def setupVars(self):
+        if self.sets == None:
+            self.sets = Set.all()
+        else:
+            print("Sets list is not None")
+        self.schedOn = False
 
 
     @commands.command()
     async def listsets(self, ctx):
         print("listsets")
         await ctx.send("This will take a second....")
-        self.sets = Set.all()
         emb = nextcord.Embed(title = "Sets")
         st = ""
         x = 1
@@ -57,12 +63,16 @@ class MTGCog(commands.Cog):
         print("choose")
         for s in self.sets:
             self.codes.append(f"{s.code}")
+            self.codenames.append(f"{s.name}")
         await ctx.send("Type in a Set Code:")
         def is_correct(m):
-                if str(m.content) not in self.codes:
+                mesg = str(m.content).upper()
+                if mesg not in self.codes:
                     print("Not a set code")
                     return False
-                return m.author == ctx.author
+                else:
+                    self.nameindex = self.codes.index(m.content)
+                    return m.author == ctx.author
         try:
             msg = await self.client.wait_for('message', check=is_correct, timeout=30.0)
         except asyncio.TimeoutError:
@@ -74,7 +84,7 @@ class MTGCog(commands.Cog):
             self.cardsWrap.append(wrapped)
         self.isLoaded = True
         self.saveList.addCards(self.cardsWrap)
-        await ctx.send(f"{self.cards[0].set} cards loaded..  Use ..randomCard")
+        await ctx.send(f"{self.codenames[self.nameindex]} cards loaded..  Use ..randomCard")
 
 
     @commands.command(aliases = ["showrandom", "rancard", "random"])
@@ -94,15 +104,17 @@ class MTGCog(commands.Cog):
 
 
     @commands.command()
-    async def getCard(self, ctx, isDict = False):
+    async def getCard(self, ctx, isDict = False, sched = False):
         print("getCard")
         if self.isLoaded:
             self.myCard = random.choice(self.cardsWrap)
+            if sched:
+                return
             if isDict == False:
                 await ctx.send(str(self.myCard))
             else:
                 await ctx.send(f"{self.myCard.getDict}")
-                self.showCard(ctx)
+                await self.showCard(ctx)
 
 
     @commands.command()
@@ -124,14 +136,55 @@ class MTGCog(commands.Cog):
             await  ctx.send(f"Set file saved")
     
         
-    @commands.command()
-    async def send(self, ctx):
+    @commands.command(aliases = ["dlset", "downloadfile", "dlfile"])
+    async def downloadset(self, ctx):
         if not self.isLoaded:
-            file = f"{setspath}UGL.json" 
+            file = self.saveList.defaultFile() 
         else:
-            file = f"{self.saveList.getFile}"
+            file = self.saveList.getFile
         nxfile = nextcord.File(file)
         await ctx.send(file = nxfile)
+
+
+    @commands.command()
+    @commands.has_role("Cool Kid")
+    async def schedSwitch(self, ctx):
+        if self.schedOn == False:
+            self.schedOn = True
+            print("Scheduled Message is set to TRUE")
+        elif self.schedOn == True:
+            self.schedOn = False
+            print("Scheduled Message is set to FALSE")
+
+
+    @commands.command()
+    @commands.has_role("Cool Kid")
+    async def HourlyMessage(self, ctx):
+        if not self.schedOn:
+            await ctx.send("ERROR: schedOn is False. Please set to on.")
+        while self.schedOn:
+            now = datetime.datetime.now()
+            then = now + datetime.timedelta(hours = 1)
+            wait_time = (then - now).total_seconds()
+            await self.schedChoose(ctx)
+            await  asyncio.sleep(wait_time)
+            
+            
+    @commands.command(hidden = True)
+    @commands.has_role("Cool Kid")
+    async def schedChoose(self, ctx):
+        self.cardsWrap = []
+        ranset = random.choice(self.sets)
+        self.cards = Card.where(set = ranset.code).where(language = "English").all()        
+        for c in self.cards:
+            wrapped = MTGCard(c)
+            self.cardsWrap.append(wrapped)
+        self.isLoaded = True
+        self.saveList.addCards(self.cardsWrap)
+        print(f"{ranset.name} cards loaded.")
+        await self.getCard(ctx, sched = True)
+        await self.showCard(ctx)
+
 
 
 ##################################################################
@@ -139,5 +192,3 @@ class MTGCog(commands.Cog):
 
 def setup(client):
     client.add_cog(MTGCog(client))
-
-

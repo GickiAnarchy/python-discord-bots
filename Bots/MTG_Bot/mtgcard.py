@@ -23,6 +23,7 @@ class MTGCard():
         self.str_props = []
         self.checkProps()
 
+
     @property
     def getDict(self):
         d = vars(self.original)
@@ -59,6 +60,7 @@ class MTGCard():
     @property
     def colors(self):
         return self.cardcolors
+
 
     def checkProps(self):        
         orig_props = [self.cardname, self.cardset, self.setcode, self.power, self.toughness, self.color_id, self.cardcolors, self.cardtype, self.rarity, self.release_date, self.cardtext]
@@ -97,6 +99,8 @@ class MTGList:
         if os.path.exists(f"{self.setsfile}"):
             return self.setsfile
 
+    def defaultFile(self):
+        return f"{set_folder}/UGL.json"
 
 
     def addCards(self, cards):
@@ -115,13 +119,3 @@ class MTGList:
 #######################################################
 #######################################################
 #######################################################
-class fileSender:
-    def __init__(self):
-        pass
-
-"""
-    @bot.command(pass_context=True)
-async def send(ctx):
-    area=ctx.message.channel
-    await bot.send_file(area, r"c:\location\of\the_file_to\send.png",filename="Hello",content="Message test")
-"""
