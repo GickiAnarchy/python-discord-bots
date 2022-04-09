@@ -3,6 +3,7 @@ from nextcord.ext import commands
 from nextcord import Interaction, SlashOption
 import os
 import botprivate
+from webserver import keep_alive
 
 
 intents = nextcord.Intents.all()
@@ -33,5 +34,5 @@ async def clr(ctx, amount = 0):
     await ctx.channel.purge(limit=amount)
 
 
-
+keep_alive()
 client.run(token.getToken())
