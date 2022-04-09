@@ -1,0 +1,2659 @@
+{
+    "Nyx-Fleece Ram": {
+        "name": "Nyx-Fleece Ram",
+        "layout": "normal",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "White"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "names": null,
+        "type": "Enchantment Creature \u2014 Sheep",
+        "supertypes": null,
+        "subtypes": [
+            "Sheep"
+        ],
+        "types": [
+            "Enchantment",
+            "Creature"
+        ],
+        "rarity": "Uncommon",
+        "text": "At the beginning of your upkeep, you gain 1 life.",
+        "flavor": null,
+        "artist": "Terese Nielsen",
+        "number": "1",
+        "power": "0",
+        "toughness": "5",
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "A25",
+            "HA2",
+            "JOU",
+            "MB1"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "311089b1-4558-5439-9fc6-8a2ac0bd4f16",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Restricted"
+            },
+            {
+                "format": "Pioneer",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": null,
+        "foreign_names": null
+    },
+    "Ranger of Eos": {
+        "name": "Ranger of Eos",
+        "layout": "normal",
+        "mana_cost": "{3}{W}",
+        "cmc": 4.0,
+        "colors": [
+            "White"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "names": null,
+        "type": "Creature \u2014 Human Soldier Ranger",
+        "supertypes": null,
+        "subtypes": [
+            "Human",
+            "Soldier",
+            "Ranger"
+        ],
+        "types": [
+            "Creature"
+        ],
+        "rarity": "Rare",
+        "text": "When Ranger of Eos enters the battlefield, you may search your library for up to two creature cards with mana value 1 or less, reveal them, put them into your hand, then shuffle.",
+        "flavor": null,
+        "artist": "Volkan Ba\u01f5a",
+        "number": "2",
+        "power": "3",
+        "toughness": "2",
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "ALA",
+            "HA2",
+            "MM3"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "61b49e63-8873-5964-9d66-3aaecd278037",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2017-03-14",
+                "text": "You may choose to find zero, one, or two creature cards in your library. Each card you find must have converted mana cost 1 or less."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Sigil of the Empty Throne": {
+        "name": "Sigil of the Empty Throne",
+        "layout": "normal",
+        "mana_cost": "{3}{W}{W}",
+        "cmc": 5.0,
+        "colors": [
+            "White"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "names": null,
+        "type": "Enchantment",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Enchantment"
+        ],
+        "rarity": "Rare",
+        "text": "Whenever you cast an enchantment spell, create a 4/4 white Angel creature token with flying.",
+        "flavor": null,
+        "artist": "Cyril Van Der Haegen",
+        "number": "3",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "C15",
+            "C18",
+            "CON",
+            "HA2",
+            "ORI",
+            "PC2",
+            "PCA",
+            "TSR"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "9045762a-ccaf-57c3-aacd-2e6298ac1209",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pioneer",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2021-03-19",
+                "text": "An ability that triggers when a player casts a spell resolves before the spell that caused it to trigger, but after targets have been chosen for that spell. It resolves even if that spell is countered."
+            },
+            {
+                "date": "2021-03-19",
+                "text": "Because it\u2019s not on the battlefield yet, casting Sigil of the Empty Throne won\u2019t cause its own ability to trigger."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Thalia, Guardian of Thraben": {
+        "name": "Thalia, Guardian of Thraben",
+        "layout": "normal",
+        "mana_cost": "{1}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "White"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "names": null,
+        "type": "Legendary Creature \u2014 Human Soldier",
+        "supertypes": [
+            "Legendary"
+        ],
+        "subtypes": [
+            "Human",
+            "Soldier"
+        ],
+        "types": [
+            "Creature"
+        ],
+        "rarity": "Rare",
+        "text": "First strike\nNoncreature spells cost {1} more to cast.",
+        "flavor": null,
+        "artist": "Jana Schirmer & Johannes Voss",
+        "number": "4",
+        "power": "2",
+        "toughness": "1",
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "A25",
+            "DBL",
+            "DKA",
+            "HA2",
+            "PRM",
+            "PVOW",
+            "PWCQ",
+            "SLD",
+            "VOW"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "45695110-8344-542b-b250-c3947d219ba2",
+        "legalities": [
+            {
+                "format": "Alchemy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Brawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Future",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pioneer",
+                "legality": "Legal"
+            },
+            {
+                "format": "Standard",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2018-03-16",
+                "text": "Thalia\u2019s ability affects each spell that\u2019s not a creature spell, including your own."
+            },
+            {
+                "date": "2018-03-16",
+                "text": "To determine the total cost of a spell, start with the mana cost or alternative cost you\u2019re paying, add any cost increases, then apply any cost reductions. The mana value of the spell remains unchanged, no matter what the total cost to cast it was."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Merrow Reejerey": {
+        "name": "Merrow Reejerey",
+        "layout": "normal",
+        "mana_cost": "{2}{U}",
+        "cmc": 3.0,
+        "colors": [
+            "Blue"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "names": null,
+        "type": "Creature \u2014 Merfolk Soldier",
+        "supertypes": null,
+        "subtypes": [
+            "Merfolk",
+            "Soldier"
+        ],
+        "types": [
+            "Creature"
+        ],
+        "rarity": "Uncommon",
+        "text": "Other Merfolk creatures you control get +1/+1.\nWhenever you cast a Merfolk spell, you may tap or untap target permanent.",
+        "flavor": null,
+        "artist": "Greg Staples",
+        "number": "5",
+        "power": "2",
+        "toughness": "2",
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "DDT",
+            "F09",
+            "HA2",
+            "LRW",
+            "PRM"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "3491a73c-b152-5b46-8ae7-2f8edc419b7c",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Restricted"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": null,
+        "foreign_names": null
+    },
+    "Inexorable Tide": {
+        "name": "Inexorable Tide",
+        "layout": "normal",
+        "mana_cost": "{3}{U}{U}",
+        "cmc": 5.0,
+        "colors": [
+            "Blue"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "names": null,
+        "type": "Enchantment",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Enchantment"
+        ],
+        "rarity": "Rare",
+        "text": "Whenever you cast a spell, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+        "flavor": null,
+        "artist": "Dave Kendall",
+        "number": "6",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "HA2",
+            "MM2",
+            "SOM"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "755ef83e-1080-57ce-b205-35aa917d9423",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2011-01-01",
+                "text": "You can choose any player that has a counter, including yourself."
+            },
+            {
+                "date": "2011-01-01",
+                "text": "You can choose any permanent that has a counter, including ones controlled by opponents. You can\u2019t choose cards in any zone other than the battlefield, even if they have counters on them, such as suspended cards or a Lightning Storm on the stack."
+            },
+            {
+                "date": "2011-01-01",
+                "text": "You don\u2019t have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since \u201cany number\u201d includes zero, you don\u2019t have to choose any permanents at all, and you don\u2019t have to choose any players at all."
+            },
+            {
+                "date": "2011-01-01",
+                "text": "Players can respond to the spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it\u2019s too late for anyone to respond."
+            },
+            {
+                "date": "2011-01-01",
+                "text": "Whenever you cast a spell, Inexorable Tide\u2019s ability triggers and goes on the stack on top of it. It will resolve (and you\u2019ll proliferate) before the spell resolves."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Brain Maggot": {
+        "name": "Brain Maggot",
+        "layout": "normal",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "Black"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "names": null,
+        "type": "Enchantment Creature \u2014 Insect",
+        "supertypes": null,
+        "subtypes": [
+            "Insect"
+        ],
+        "types": [
+            "Enchantment",
+            "Creature"
+        ],
+        "rarity": "Uncommon",
+        "text": "When Brain Maggot enters the battlefield, target opponent reveals their hand and you choose a nonland card from it. Exile that card until Brain Maggot leaves the battlefield.",
+        "flavor": null,
+        "artist": "Min Yum",
+        "number": "7",
+        "power": "1",
+        "toughness": "1",
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "F14",
+            "HA2",
+            "JOU",
+            "PRM"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "91f9b80f-17cb-530e-b968-1f46dbc9884a",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Restricted"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pioneer",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2014-04-26",
+                "text": "Brain Maggot\u2019s ability causes a zone change with a duration, a new style of ability that\u2019s somewhat reminiscent of older cards like Tidehollow Sculler. However, unlike Tidehollow Sculler, Brain Maggot has a single ability that creates two one-shot effects: one that exiles the nonland card when the ability resolves, and another that returns the exiled card to its owner\u2019s hand immediately after Brain Maggot leaves the battlefield."
+            },
+            {
+                "date": "2014-04-26",
+                "text": "If Brain Maggot leaves the battlefield before its enters-the-battlefield ability resolves, the opponent will reveal their hand, but no card will be exiled."
+            },
+            {
+                "date": "2014-04-26",
+                "text": "The exiled card returns to its owner\u2019s hand immediately after Brain Maggot leaves the battlefield. Nothing happens between the two events, including state-based actions."
+            },
+            {
+                "date": "2014-04-26",
+                "text": "In a multiplayer game, if Brain Maggot\u2019s owner leaves the game, the exiled card will return to its owner\u2019s hand. Because the one-shot effect that returns the card isn\u2019t an ability that goes on the stack, it won\u2019t cease to exist along with the leaving player\u2019s spells and abilities on the stack."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Pack Rat": {
+        "name": "Pack Rat",
+        "layout": "normal",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "Black"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "names": null,
+        "type": "Creature \u2014 Rat",
+        "supertypes": null,
+        "subtypes": [
+            "Rat"
+        ],
+        "types": [
+            "Creature"
+        ],
+        "rarity": "Rare",
+        "text": "Pack Rat's power and toughness are each equal to the number of Rats you control.\n{2}{B}, Discard a card: Create a token that's a copy of Pack Rat.",
+        "flavor": null,
+        "artist": "Kev Walker",
+        "number": "8",
+        "power": "*",
+        "toughness": "*",
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "HA2",
+            "RTR",
+            "SLD"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "cbe05b55-5bae-5edf-9b80-08ffb39eb60a",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pioneer",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2012-10-01",
+                "text": "Pack Rat\u2019s first ability counts any creature you control with the creature type Rat, not just Pack Rats."
+            },
+            {
+                "date": "2012-10-01",
+                "text": "The token will copy Pack Rat\u2019s two abilities. Its power and toughness will be equal to the number of Rats you control (not the number of Rats you controlled when the token entered the battlefield). It will also be able to create copies of itself."
+            },
+            {
+                "date": "2012-10-01",
+                "text": "The token won\u2019t copy counters on Pack Rat, nor will it copy other effects that have changed Pack Rat\u2019s power, toughness, types, color, or so on. Normally, this means the token will simply be a Pack Rat. But if any copy effects have affected that Pack Rat, they\u2019re taken into account."
+            },
+            {
+                "date": "2012-10-01",
+                "text": "If Pack Rat leaves the battlefield before its activated ability resolves, the token will still enter the battlefield as a copy of Pack Rat, using Pack Rat\u2019s copiable values from when it was last on the battlefield."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Virulent Plague": {
+        "name": "Virulent Plague",
+        "layout": "normal",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "Black"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "names": null,
+        "type": "Enchantment",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Enchantment"
+        ],
+        "rarity": "Uncommon",
+        "text": "Creature tokens get -2/-2.",
+        "flavor": null,
+        "artist": "Johann Bodin",
+        "number": "9",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "DTK",
+            "HA2"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "0c546775-25bb-5326-8901-97e22b895a3e",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pioneer",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2015-02-25",
+                "text": "If an effect creates a creature token that normally has toughness 2 or less, it will enter the battlefield with toughness 0 or less, be put into its owner\u2019s graveyard, and then cease to exist. Any abilities that trigger when a creature enters the battlefield or dies will trigger."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Waste Not": {
+        "name": "Waste Not",
+        "layout": "normal",
+        "mana_cost": "{1}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "Black"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "names": null,
+        "type": "Enchantment",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Enchantment"
+        ],
+        "rarity": "Rare",
+        "text": "Whenever an opponent discards a creature card, create a 2/2 black Zombie creature token.\nWhenever an opponent discards a land card, add {B}{B}.\nWhenever an opponent discards a noncreature, nonland card, draw a card.",
+        "flavor": "Designed by the Magic community",
+        "artist": "Matt Stewart",
+        "number": "10",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "C16",
+            "HA2",
+            "M15"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "bc6e05a7-636f-5706-92bb-a8ade7138e83",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pioneer",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": null,
+        "foreign_names": null
+    },
+    "Dragonmaster Outcast": {
+        "name": "Dragonmaster Outcast",
+        "layout": "normal",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "colors": [
+            "Red"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "names": null,
+        "type": "Creature \u2014 Human Shaman",
+        "supertypes": null,
+        "subtypes": [
+            "Human",
+            "Shaman"
+        ],
+        "types": [
+            "Creature"
+        ],
+        "rarity": "Mythic",
+        "text": "At the beginning of your upkeep, if you control six or more lands, create a 5/5 red Dragon creature token with flying.",
+        "flavor": "\"Cast out by my tribe, I am a pariah trapped in this mammal's carcass. Only my true kin hear my cries.\"",
+        "artist": "Raymond Swanland",
+        "number": "11",
+        "power": "1",
+        "toughness": "1",
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "AFC",
+            "BFZ",
+            "C19",
+            "HA2",
+            "PBFZ",
+            "WWK"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "bf621cbf-b0e5-57eb-b37e-959ec0710cba",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pioneer",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": null,
+        "foreign_names": null
+    },
+    "Goblin Ruinblaster": {
+        "name": "Goblin Ruinblaster",
+        "layout": "normal",
+        "mana_cost": "{2}{R}",
+        "cmc": 3.0,
+        "colors": [
+            "Red"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "names": null,
+        "type": "Creature \u2014 Goblin Shaman",
+        "supertypes": null,
+        "subtypes": [
+            "Goblin",
+            "Shaman"
+        ],
+        "types": [
+            "Creature"
+        ],
+        "rarity": "Uncommon",
+        "text": "Kicker {R} (You may pay an additional {R} as you cast this spell.)\nHaste\nWhen Goblin Ruinblaster enters the battlefield, if it was kicked, destroy target nonbasic land.",
+        "flavor": null,
+        "artist": "Matt Cavotta",
+        "number": "12",
+        "power": "2",
+        "toughness": "1",
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "HA2",
+            "ZEN"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "0f88524f-5f52-5376-b6e5-891da6921c92",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Restricted"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": null,
+        "foreign_names": null
+    },
+    "Ancestral Mask": {
+        "name": "Ancestral Mask",
+        "layout": "normal",
+        "mana_cost": "{2}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "Green"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "names": null,
+        "type": "Enchantment \u2014 Aura",
+        "supertypes": null,
+        "subtypes": [
+            "Aura"
+        ],
+        "types": [
+            "Enchantment"
+        ],
+        "rarity": "Common",
+        "text": "Enchant creature\nEnchanted creature gets +2/+2 for each other enchantment on the battlefield.",
+        "flavor": "The masks, like the ancient trees they're grown from, lend strength to the dryads.",
+        "artist": "Massimilano Frezzato",
+        "number": "13",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "EMA",
+            "HA2",
+            "MB1",
+            "MMQ"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "95dc0988-b3e0-5a20-a0b7-987a21ba2e18",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pauper",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": null,
+        "foreign_names": null
+    },
+    "Terravore": {
+        "name": "Terravore",
+        "layout": "normal",
+        "mana_cost": "{1}{G}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "Green"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "names": null,
+        "type": "Creature \u2014 Lhurgoyf",
+        "supertypes": null,
+        "subtypes": [
+            "Lhurgoyf"
+        ],
+        "types": [
+            "Creature"
+        ],
+        "rarity": "Rare",
+        "text": "Trample\nTerravore's power and toughness are each equal to the number of land cards in all graveyards.",
+        "flavor": null,
+        "artist": "Jim Nelson",
+        "number": "14",
+        "power": "*",
+        "toughness": "*",
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "HA2",
+            "ODY"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "5a8fbaf8-b2aa-5bf7-b936-ed0f5b69629e",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": null,
+        "foreign_names": null
+    },
+    "Knight of the Reliquary": {
+        "name": "Knight of the Reliquary",
+        "layout": "normal",
+        "mana_cost": "{1}{G}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "Green",
+            "White"
+        ],
+        "color_identity": [
+            "G",
+            "W"
+        ],
+        "names": null,
+        "type": "Creature \u2014 Human Knight",
+        "supertypes": null,
+        "subtypes": [
+            "Human",
+            "Knight"
+        ],
+        "types": [
+            "Creature"
+        ],
+        "rarity": "Rare",
+        "text": "Knight of the Reliquary gets +1/+1 for each land card in your graveyard.\n{T}, Sacrifice a Forest or Plains: Search your library for a land card, put it onto the battlefield, then shuffle.",
+        "flavor": "\"Knowledge of Bant's landscape and ruins is a weapon that the invaders can't comprehend.\"\n\u2014Elspeth",
+        "artist": "Michael Komarck",
+        "number": "15",
+        "power": "2",
+        "toughness": "2",
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "CON",
+            "DDG",
+            "HA2",
+            "IMA",
+            "MMA",
+            "TSR"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "5c070df6-b33a-573e-8435-77001e5ed42d",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2021-03-19",
+                "text": "Knight of the Reliquary\u2019s first ability applies only while it\u2019s on the battlefield. In all other zones, it\u2019s a 2/2 creature."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Maelstrom Pulse": {
+        "name": "Maelstrom Pulse",
+        "layout": "normal",
+        "mana_cost": "{1}{B}{G}",
+        "cmc": 3.0,
+        "colors": [
+            "Black",
+            "Green"
+        ],
+        "color_identity": [
+            "B",
+            "G"
+        ],
+        "names": null,
+        "type": "Sorcery",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Sorcery"
+        ],
+        "rarity": "Rare",
+        "text": "Destroy target nonland permanent and all other permanents with the same name as that permanent.",
+        "flavor": "During the collision of the shards, entire ways of life disappeared without a trace.",
+        "artist": "Anthony Francisco",
+        "number": "16",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "2XM",
+            "ARB",
+            "HA2",
+            "MMA",
+            "MP2",
+            "PGPX",
+            "PRM",
+            "PUMA",
+            "UMA"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "8bf181b5-0da6-5834-a706-344be0833c8a",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2009-05-01",
+                "text": "A face-down creature has no name, so it doesn\u2019t have the same name as anything else."
+            },
+            {
+                "date": "2018-12-07",
+                "text": "Maelstrom Pulse has only one target. Other permanents with the same name will be destroyed even if they have hexproof or protection."
+            },
+            {
+                "date": "2018-12-07",
+                "text": "If the target permanent becomes an illegal target for Maelstrom Pulse, the spell doesn\u2019t resolve. Nothing is destroyed."
+            },
+            {
+                "date": "2018-12-07",
+                "text": "The name of a creature token is the same as the creature types it was created with unless the token is a copy of another creature or the effect that created the token specifically gives it a different name. For example, a 1/1 red Elemental creature token created by Young Pyromancer and a 4/4 green Elemental creature token created by Walker of the Grove are both named \u201cElemental.\u201d"
+            },
+            {
+                "date": "2018-12-07",
+                "text": "If Maelstrom Pulse resolves but the target permanent isn\u2019t destroyed (perhaps because it regenerates or has indestructible), all other permanents with the same name as it will still be destroyed."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Meddling Mage": {
+        "name": "Meddling Mage",
+        "layout": "normal",
+        "mana_cost": "{W}{U}",
+        "cmc": 2.0,
+        "colors": [
+            "Blue",
+            "White"
+        ],
+        "color_identity": [
+            "U",
+            "W"
+        ],
+        "names": null,
+        "type": "Creature \u2014 Human Wizard",
+        "supertypes": null,
+        "subtypes": [
+            "Human",
+            "Wizard"
+        ],
+        "types": [
+            "Creature"
+        ],
+        "rarity": "Rare",
+        "text": "As Meddling Mage enters the battlefield, choose a nonland card name.\nSpells with the chosen name can't be cast.",
+        "flavor": null,
+        "artist": "Todd Lockwood",
+        "number": "17",
+        "power": "2",
+        "toughness": "2",
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "2XM",
+            "ARB",
+            "G06",
+            "HA2",
+            "MB1",
+            "PLS",
+            "PRM"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "454e793e-0202-588f-a43c-391b45bae827",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Banned"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2009-05-01",
+                "text": "No one can cast spells or activate abilities between the time a card is named and the time that Meddling Mage\u2019s ability starts to work."
+            },
+            {
+                "date": "2009-05-01",
+                "text": "Spells with the chosen name that somehow happen to already be on the stack when Meddling Mage enters the battlefield are not affected by Meddling Mage\u2019s ability."
+            },
+            {
+                "date": "2009-05-01",
+                "text": "Although the named card can\u2019t be cast, it can still be put onto the battlefield by a spell or ability (if it\u2019s a permanent card)."
+            },
+            {
+                "date": "2009-05-01",
+                "text": "You can name either half of a split card, but not both. If you do so, that half (and both halves, if the split card has fuse) can\u2019t be cast. The other half is unaffected."
+            },
+            {
+                "date": "2009-05-01",
+                "text": "If a card with morph is named, that card may still be cast face down. Face-down cards have no names."
+            },
+            {
+                "date": "2009-05-01",
+                "text": "Once Meddling Mage leaves the battlefield, the named card can be cast again."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Platinum Angel": {
+        "name": "Platinum Angel",
+        "layout": "normal",
+        "mana_cost": "{7}",
+        "cmc": 7.0,
+        "colors": null,
+        "color_identity": null,
+        "names": null,
+        "type": "Artifact Creature \u2014 Angel",
+        "supertypes": null,
+        "subtypes": [
+            "Angel"
+        ],
+        "types": [
+            "Artifact",
+            "Creature"
+        ],
+        "rarity": "Mythic",
+        "text": "Flying\nYou can't lose the game and your opponents can't win the game.",
+        "flavor": null,
+        "artist": "Brom",
+        "number": "18",
+        "power": "4",
+        "toughness": "4",
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "10E",
+            "CN2",
+            "HA2",
+            "M10",
+            "M11",
+            "MPS",
+            "MRD",
+            "PLIST",
+            "TD2",
+            "V15"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "7477b787-4c36-5f8b-84e7-781f41d184f5",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2004-12-01",
+                "text": "Effects that say the game is a draw, such as the _Legends_(TM) card Divine Intervention, are not affected by Platinum Angel. They\u2019ll still work."
+            },
+            {
+                "date": "2004-12-01",
+                "text": "You can concede a game while Platinum Angel on the battlefield. A concession causes you to leave the game, which then causes you to lose the game (Once you concede, you no longer control a Platinum Angel, so its ability can\u2019t prevent you from losing the game)."
+            },
+            {
+                "date": "2009-10-01",
+                "text": "No game effect can cause you to lose the game or cause any opponent to win the game while you control Platinum Angel. It doesn\u2019t matter whether you have 0 or less life, you\u2019re forced to draw a card while your library is empty, you have ten or more poison counters, you\u2019re dealt combat damage by Phage the Untouchable, your opponent has Mortal Combat with twenty or more creature cards in their graveyard, or so on. You keep playing."
+            },
+            {
+                "date": "2009-10-01",
+                "text": "Other circumstances can still cause you to lose the game, however. You will lose a game if you concede, if you\u2019re penalized with a Game Loss or a Match Loss during a sanctioned tournament due to a DCI rules infraction, or if your _Magic Online_(R) game clock runs out of time."
+            },
+            {
+                "date": "2009-10-01",
+                "text": "If you control Platinum Angel in a Two-Headed Giant game, your team can\u2019t lose the game and the opposing team can\u2019t win the game."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Barren Moor": {
+        "name": "Barren Moor",
+        "layout": "normal",
+        "mana_cost": null,
+        "cmc": 0.0,
+        "colors": null,
+        "color_identity": [
+            "B"
+        ],
+        "names": null,
+        "type": "Land",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Land"
+        ],
+        "rarity": "Common",
+        "text": "Barren Moor enters the battlefield tapped.\n{T}: Add {B}.\nCycling {B} ({B}, Discard this card: Draw a card.)",
+        "flavor": null,
+        "artist": "Heather Hudson",
+        "number": "19",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "ARC",
+            "C13",
+            "C14",
+            "C15",
+            "C18",
+            "C19",
+            "C21",
+            "CM2",
+            "CMA",
+            "CMD",
+            "DDC",
+            "DDJ",
+            "DVD",
+            "HA2",
+            "MH1",
+            "ONS",
+            "TD0",
+            "VMA",
+            "WC03"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "9ff9f21e-4ec7-5e29-ac98-7111dbb15aeb",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pauper",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2008-10-01",
+                "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Bojuka Bog": {
+        "name": "Bojuka Bog",
+        "layout": "normal",
+        "mana_cost": null,
+        "cmc": 0.0,
+        "colors": null,
+        "color_identity": [
+            "B"
+        ],
+        "names": null,
+        "type": "Land",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Land"
+        ],
+        "rarity": "Common",
+        "text": "Bojuka Bog enters the battlefield tapped.\nWhen Bojuka Bog enters the battlefield, exile target player's graveyard.\n{T}: Add {B}.",
+        "flavor": null,
+        "artist": "Howard Lyon",
+        "number": "20",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "AFC",
+            "C13",
+            "C14",
+            "C17",
+            "C18",
+            "C19",
+            "C20",
+            "C21",
+            "CMA",
+            "CMD",
+            "HA2",
+            "MB1",
+            "MIC",
+            "PLIST",
+            "PZ1",
+            "TSR",
+            "WWK"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "72bc3c75-f5a7-571d-9d71-355dc6b23ff8",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pauper",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": null,
+        "foreign_names": null
+    },
+    "Forgotten Cave": {
+        "name": "Forgotten Cave",
+        "layout": "normal",
+        "mana_cost": null,
+        "cmc": 0.0,
+        "colors": null,
+        "color_identity": [
+            "R"
+        ],
+        "names": null,
+        "type": "Land",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Land"
+        ],
+        "rarity": "Common",
+        "text": "Forgotten Cave enters the battlefield tapped.\n{T}: Add {R}.\nCycling {R} ({R}, Discard this card: Draw a card.)",
+        "flavor": null,
+        "artist": "Tony Szczudlo",
+        "number": "21",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "C13",
+            "C14",
+            "C15",
+            "C18",
+            "C19",
+            "C20",
+            "C21",
+            "CM2",
+            "CMA",
+            "CMD",
+            "CMR",
+            "DD1",
+            "DDJ",
+            "DDT",
+            "EVG",
+            "HA2",
+            "MB1",
+            "MH1",
+            "ONS",
+            "TD0",
+            "VMA"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "93d9d0c9-f684-52a0-86eb-a19c43581bb2",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pauper",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2008-10-01",
+                "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Ghost Quarter": {
+        "name": "Ghost Quarter",
+        "layout": "normal",
+        "mana_cost": null,
+        "cmc": 0.0,
+        "colors": null,
+        "color_identity": null,
+        "names": null,
+        "type": "Land",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Land"
+        ],
+        "rarity": "Uncommon",
+        "text": "{T}: Add {C}.\n{T}, Sacrifice Ghost Quarter: Destroy target land. Its controller may search their library for a basic land card, put it onto the battlefield, then shuffle.",
+        "flavor": null,
+        "artist": "Peter Mohrbacher",
+        "number": "22",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "C14",
+            "C15",
+            "CM2",
+            "CMA",
+            "DIS",
+            "HA2",
+            "ISD",
+            "MB1",
+            "MD1",
+            "TD0"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "de2e029e-dec6-5956-8cc5-88a86f9e9ae2",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2006-05-01",
+                "text": "If you target Ghost Quarter with its own ability, the ability won\u2019t resolve because its target is no longer on the battlefield. You won\u2019t get to search for a land card."
+            },
+            {
+                "date": "2011-09-22",
+                "text": "If the targeted land is an illegal target by the time Ghost Quarter\u2019s ability resolves, it won\u2019t resolve and none of its effects will happen. The land\u2019s controller won\u2019t get to search for a basic land card."
+            },
+            {
+                "date": "2013-07-01",
+                "text": "The target land\u2019s controller gets to search for a basic land card even if that land wasn\u2019t destroyed by Ghost Quarter\u2019s ability. This may happen because the land has indestructible or because it was regenerated."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Lonely Sandbar": {
+        "name": "Lonely Sandbar",
+        "layout": "normal",
+        "mana_cost": null,
+        "cmc": 0.0,
+        "colors": null,
+        "color_identity": [
+            "U"
+        ],
+        "names": null,
+        "type": "Land",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Land"
+        ],
+        "rarity": "Common",
+        "text": "Lonely Sandbar enters the battlefield tapped.\n{T}: Add {U}.\nCycling {U} ({U}, Discard this card: Draw a card.)",
+        "flavor": null,
+        "artist": "Heather Hudson",
+        "number": "23",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "C13",
+            "C14",
+            "C18",
+            "C20",
+            "C21",
+            "CM2",
+            "CMD",
+            "DDJ",
+            "DDT",
+            "HA2",
+            "MH1",
+            "ONS",
+            "PZ2",
+            "VMA"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "955325b2-ccfa-50a5-b6b7-7f8cfa5421a4",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pauper",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2008-10-01",
+                "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Secluded Steppe": {
+        "name": "Secluded Steppe",
+        "layout": "normal",
+        "mana_cost": null,
+        "cmc": 0.0,
+        "colors": null,
+        "color_identity": [
+            "W"
+        ],
+        "names": null,
+        "type": "Land",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Land"
+        ],
+        "rarity": "Common",
+        "text": "Secluded Steppe enters the battlefield tapped.\n{T}: Add {W}.\nCycling {W} ({W}, Discard this card: Draw a card.)",
+        "flavor": null,
+        "artist": "Heather Hudson",
+        "number": "24",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "ARC",
+            "C13",
+            "C14",
+            "C15",
+            "C17",
+            "C18",
+            "C20",
+            "C21",
+            "CM2",
+            "CMA",
+            "CMD",
+            "CMR",
+            "DDC",
+            "DDO",
+            "DVD",
+            "HA2",
+            "MH1",
+            "ONS",
+            "VMA",
+            "WC04"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "a30fe681-1a85-51c4-aa72-41ac52e0a586",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pauper",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2008-10-01",
+                "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Tranquil Thicket": {
+        "name": "Tranquil Thicket",
+        "layout": "normal",
+        "mana_cost": null,
+        "cmc": 0.0,
+        "colors": null,
+        "color_identity": [
+            "G"
+        ],
+        "names": null,
+        "type": "Land",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Land"
+        ],
+        "rarity": "Common",
+        "text": "Tranquil Thicket enters the battlefield tapped.\n{T}: Add {G}.\nCycling {G} ({G}, Discard this card: Draw a card.)",
+        "flavor": null,
+        "artist": "Heather Hudson",
+        "number": "25",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": null,
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "ARC",
+            "C13",
+            "C14",
+            "C17",
+            "C18",
+            "C21",
+            "CM2",
+            "CMA",
+            "CMD",
+            "DD1",
+            "DDJ",
+            "DDU",
+            "EVG",
+            "HA2",
+            "MH1",
+            "ONS",
+            "TD0",
+            "VMA",
+            "WC04"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "HA2",
+        "set_name": "Historic Anthology 2",
+        "id": "658e3705-b231-5e37-973d-5e955b465b65",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pauper",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2008-10-01",
+                "text": "Cycling is an activated ability. Effects that interact with activated abilities (such as Stifle or Rings of Brighthearth) will interact with cycling. Effects that interact with spells (such as Remove Soul or Faerie Tauntings) will not."
+            }
+        ],
+        "foreign_names": null
+    }
+}

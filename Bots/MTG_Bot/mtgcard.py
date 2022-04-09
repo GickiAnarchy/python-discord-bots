@@ -22,8 +22,6 @@ class MTGCard():
         self.rarity = card.rarity
         self.str_props = []
         self.checkProps()
-       
-        
 
     @property
     def getDict(self):
@@ -90,6 +88,14 @@ class MTGList:
             os.mkdir(set_folder)        
         self.mtg_dict = {}
         self.filename = ""
+        self.setsfile = ""
+       
+
+    
+    @property
+    def getFile(self):
+        if os.path.exists(f"{self.setsfile}"):
+            return self.setsfile
 
 
 
@@ -103,6 +109,7 @@ class MTGList:
         with open(f"{set_folder}/{self.filename}", "w") as f:
             json.dump(self.mtg_dict, f, indent = 4)
             f.close
+        self.setsfile = f"{set_folder}/{self.filename}"
 
 
 #######################################################

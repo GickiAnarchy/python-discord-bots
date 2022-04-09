@@ -6,7 +6,7 @@ import os
 import asyncio
 import time
 import random
-from .mtgcard import MTGCard, MTGList
+from mtgcard import MTGCard, MTGList
 
 
 
@@ -102,6 +102,7 @@ class MTGCog(commands.Cog):
                 await ctx.send(str(self.myCard))
             else:
                 await ctx.send(f"{self.myCard.getDict}")
+                self.showCard(ctx)
 
 
     @commands.command()
@@ -121,6 +122,17 @@ class MTGCog(commands.Cog):
         if self.isLoaded:
             self.saveList.saveCards()
             await  ctx.send(f"Set file saved")
+    
+        
+    @commands.command()
+    async def send(self, ctx):
+        if not self.isLoaded:
+            file = f"{setspath}UGL.json" 
+        else:
+            file = f"{self.saveList.getFile}"
+        nxfile = nextcord.File(file)
+        await ctx.send(file = nxfile)
+
 
 ##################################################################
 ##################################################################
