@@ -10,12 +10,13 @@ intents = nextcord.Intents.all()
 intents.members = True
 client = commands.Bot(command_prefix = "..", intents = intents)
 token = botprivate.TokenClass()
+cog_folder = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 
 
 @client.event
 async def on_ready():
      c = 1
-     for filename in os.listdir("./cogs"):
+     for filename in os.listdir(f"{cog_folder}/cogs"):
          if filename.endswith("cog.py"):
              print(f"{c} - {filename}")
              client.load_extension(f"cogs.{filename[:-3]}")
