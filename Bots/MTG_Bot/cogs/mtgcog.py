@@ -6,7 +6,7 @@ import os
 import asyncio
 import time
 import random
-from mtgcard import MTGCard, MTGList
+from .mtgcard import MTGCard, MTGList
 
 
 
