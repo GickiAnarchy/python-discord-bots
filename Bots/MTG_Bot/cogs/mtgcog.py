@@ -137,7 +137,7 @@ class MTGCog(commands.Cog):
     
         
     @commands.command(aliases = ["dlset", "downloadfile", "dlfile"])
-    async def downloadset(self, ctx):
+    async def downloadSet(self, ctx):
         if not self.isLoaded:
             file = self.saveList.defaultFile() 
         else:
