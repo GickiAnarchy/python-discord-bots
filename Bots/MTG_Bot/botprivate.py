@@ -4,12 +4,7 @@
 class TokenClass():
     def __init__(self):
         #discord token 1st half
-        self.dt1 = "OTE0MDU4NjYzNDI0MDU3MzQ0.YaHhdw.hJ"
-        #discord token 2nd half
-        self.dt2 = "_XdwaNFNG4HLRA3gpTKHC69mI"
-
-
+        self.token = "ENTER_TOKEN_HERE"
+        
     def getToken(self):
-        retstr = str(self.dt1 + self.dt2)
-        print(retstr)
-        return retstr
+        return self.token

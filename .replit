@@ -1,2 +1,0 @@
-language = "python3"
-run = "python Bots/MTG_Bot/mtg2.py"
