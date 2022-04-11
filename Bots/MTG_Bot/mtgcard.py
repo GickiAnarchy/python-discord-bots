@@ -1,3 +1,6 @@
+#Code by GickiAnarchy
+# fatheranarchy@programmer.net
+
 from mtgsdk import Card, Set, Type
 import json
 import io
