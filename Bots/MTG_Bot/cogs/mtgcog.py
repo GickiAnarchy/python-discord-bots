@@ -2,7 +2,10 @@ from mtgsdk import Card, Set, Type, Subtype, Supertype
 import nextcord
 from nextcord.ext import commands
 from nextcord import Interaction, SlashOption
-import os, asyncio, random, time
+import os
+import asyncio
+import random
+import time
 from mtgcard import MTGCard, MTGList
 import datetime
 
@@ -13,6 +16,7 @@ setspath = f"{thisfolder}/sets/"
 
 class MTGCog(commands.Cog):
     def __init__(self, client):
+        self.urlfile = f"{urls.txt}"
         self.client = client
         self.sets = None
         self.codes = []
@@ -25,8 +29,46 @@ class MTGCog(commands.Cog):
         self.codenames = []
         self.nameindex = 0
         self.schedOn = False
-        self.setupVars()       
+        self.urls = []
+        self.setupVars()
+        self.setupURLs()
+        
 
+
+
+    def setupURLs(self):
+      if os.path.exists(f"{self.urlfile}"):
+        with open(f"{self.urlfile}", "r") as f:
+          if not self.urls[0] == None:
+            cpyList = self.urls
+            self.urls = f.readlines()
+            for u in self.urls:
+              if u in cpyList:
+                continue
+              else:
+                self.urls.append(u)
+          else:
+            self.urls = f.readliness()
+          f.close()
+
+          
+    def saveURLs(self):
+      if not self.isLoaded:
+        return
+      for c in self.cardsWrap:
+        u = c.imgurl
+        if u == None or "":
+          continue
+        if u in self.urls:
+          continue
+        self.urls.append(f"{u.strip()}")
+      with open(self.urlfile, "w") as f:
+        i = 0
+        for u in self.urls:
+          f.write(u)
+          i += 1
+          print(str(i))
+        f.close()
 
 
     def setupVars(self):
@@ -40,6 +82,19 @@ class MTGCog(commands.Cog):
             #await chan.send("..HourlyMessage")
         else:
             self.schedOn = False
+
+
+    @commands.command()
+    @commands.has_role("Cool Kid")
+    async def saveallurls(self, ctx):
+      await ctx.send("this will be a few minutes..", delete_after = 20)
+      self.allcards = Card.where(language = "English").all()
+      await ctx.send("almost done..", delete_after = 2)
+      self.cardsWrap = []
+      for c in self.allcards:
+        wrapped = MTGCard(c)
+        self.cardsWrap.append(wrapped)
+      self.saveURLs()
 
 
     @commands.command()
