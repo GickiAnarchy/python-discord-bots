@@ -1,0 +1,1143 @@
+{
+    "Firebolt": {
+        "name": "Firebolt",
+        "layout": "normal",
+        "mana_cost": "{R}",
+        "cmc": 1.0,
+        "colors": [
+            "Red"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "names": null,
+        "type": "Sorcery",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Sorcery"
+        ],
+        "rarity": "Rare",
+        "text": "Firebolt deals 2 damage to any target.\nFlashback {4}{R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+        "flavor": "Reach out and torch someone.",
+        "artist": "Ron Spencer",
+        "number": "1",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": "fnm",
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "DD2",
+            "DDS",
+            "EMA",
+            "F07",
+            "JVC",
+            "MB1",
+            "MH1",
+            "ODY",
+            "PRM"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "F07",
+        "set_name": "Friday Night Magic 2007",
+        "id": "8cf8ff1d-b641-5066-972e-921661d61619",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pauper",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2021-03-19",
+                "text": "\u201cFlashback [cost]\u201d means \u201cYou may cast this card from your graveyard by paying [cost] rather than paying its mana cost\u201d and \u201cIf the flashback cost was paid, exile this card instead of putting it anywhere else any time it would leave the stack.\u201d"
+            },
+            {
+                "date": "2021-03-19",
+                "text": "You must still follow any timing restrictions and permissions, including those based on the card\u2019s type. For instance, you can cast a sorcery using flashback only when you could normally cast a sorcery."
+            },
+            {
+                "date": "2021-03-19",
+                "text": "To determine the total cost of a spell, start with the mana cost or alternative cost (such as a flashback cost) you\u2019re paying, add any cost increases, then apply any cost reductions. The mana value of the spell is determined only by its mana cost, no matter what the total cost to cast the spell was."
+            },
+            {
+                "date": "2021-03-19",
+                "text": "A spell cast using flashback will always be exiled afterward, whether it resolves, is countered, or leaves the stack in some other way."
+            },
+            {
+                "date": "2021-03-19",
+                "text": "You can cast a spell using flashback even if it was somehow put into your graveyard without having been cast."
+            },
+            {
+                "date": "2021-03-19",
+                "text": "If a card with flashback is put into your graveyard during your turn, you can cast it if it\u2019s legal to do so before any other player can take any actions."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Deep Analysis": {
+        "name": "Deep Analysis",
+        "layout": "normal",
+        "mana_cost": "{3}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "Blue"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "names": null,
+        "type": "Sorcery",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Sorcery"
+        ],
+        "rarity": "Rare",
+        "text": "Target player draws two cards.\nFlashback\u2014{1}{U}, Pay 3 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+        "flavor": "\"The specimen seems to be broken.\"",
+        "artist": "Daren Bader",
+        "number": "2",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": "fnm",
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "C13",
+            "C19",
+            "DDH",
+            "EMA",
+            "F07",
+            "MB1",
+            "PRM",
+            "PZ1",
+            "TOR",
+            "VMA",
+            "WC02",
+            "WC03"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "F07",
+        "set_name": "Friday Night Magic 2007",
+        "id": "16ff853d-3170-5a43-9d81-9f2cc3456952",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pauper",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": null,
+        "foreign_names": null
+    },
+    "Gerrard's Verdict": {
+        "name": "Gerrard's Verdict",
+        "layout": "normal",
+        "mana_cost": "{W}{B}",
+        "cmc": 2.0,
+        "colors": [
+            "Black",
+            "White"
+        ],
+        "color_identity": [
+            "B",
+            "W"
+        ],
+        "names": null,
+        "type": "Sorcery",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Sorcery"
+        ],
+        "rarity": "Rare",
+        "text": "Target player discards two cards. You gain 3 life for each land card discarded this way.",
+        "flavor": "A heart of light and a soul of darkness cannot coexist.",
+        "artist": "Carl Critchlow",
+        "number": "3",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": "fnm",
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "APC",
+            "F07",
+            "PRM"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "F07",
+        "set_name": "Friday Night Magic 2007",
+        "id": "71575314-05be-54c3-9c03-11b7ac5a6a06",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": null,
+        "foreign_names": null
+    },
+    "Basking Rootwalla": {
+        "name": "Basking Rootwalla",
+        "layout": "normal",
+        "mana_cost": "{G}",
+        "cmc": 1.0,
+        "colors": [
+            "Green"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "names": null,
+        "type": "Creature \u2014 Lizard",
+        "supertypes": null,
+        "subtypes": [
+            "Lizard"
+        ],
+        "types": [
+            "Creature"
+        ],
+        "rarity": "Rare",
+        "text": "{1}{G}: Basking Rootwalla gets +2/+2 until end of turn. Activate only once each turn.\nMadness {0} (If you discard this card, discard it into exile. When you do, cast it for its madness cost or put it into your graveyard.)",
+        "flavor": null,
+        "artist": "Heather Hudson",
+        "number": "4",
+        "power": "1",
+        "toughness": "1",
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": "fnm",
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "DDD",
+            "F07",
+            "GVL",
+            "MB1",
+            "PRM",
+            "TOR",
+            "UMA",
+            "VMA",
+            "WC03"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "F07",
+        "set_name": "Friday Night Magic 2007",
+        "id": "2cb2b89f-a613-5098-98bd-359ba69d67c7",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pauper",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2006-02-01",
+                "text": "If this card\u2019s ability is activated by one player, then another player takes control of it on the same turn, the second player can\u2019t activate its ability that turn."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Wonder": {
+        "name": "Wonder",
+        "layout": "normal",
+        "mana_cost": "{3}{U}",
+        "cmc": 4.0,
+        "colors": [
+            "Blue"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "names": null,
+        "type": "Creature \u2014 Incarnation",
+        "supertypes": null,
+        "subtypes": [
+            "Incarnation"
+        ],
+        "types": [
+            "Creature"
+        ],
+        "rarity": "Rare",
+        "text": "Flying\nAs long as Wonder is in your graveyard and you control an Island, creatures you control have flying.",
+        "flavor": "\"The awestruck birds gazed at Wonder. Slowly, timidly, they rose into the air.\"\n\u2014*Scroll of Beginnings*",
+        "artist": "Rebecca Guay",
+        "number": "5",
+        "power": "2",
+        "toughness": "2",
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": "fnm",
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "C13",
+            "CM2",
+            "CMA",
+            "CMD",
+            "EMA",
+            "F07",
+            "J21",
+            "JUD",
+            "MH2",
+            "PRM",
+            "PZ1",
+            "WC02",
+            "WC03"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "F07",
+        "set_name": "Friday Night Magic 2007",
+        "id": "1cfaef7d-db06-5420-a58e-9539aa5c66d7",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Restricted"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": null,
+        "foreign_names": null
+    },
+    "Goblin Legionnaire": {
+        "name": "Goblin Legionnaire",
+        "layout": "normal",
+        "mana_cost": "{R}{W}",
+        "cmc": 2.0,
+        "colors": [
+            "Red",
+            "White"
+        ],
+        "color_identity": [
+            "R",
+            "W"
+        ],
+        "names": null,
+        "type": "Creature \u2014 Goblin Soldier",
+        "supertypes": null,
+        "subtypes": [
+            "Goblin",
+            "Soldier"
+        ],
+        "types": [
+            "Creature"
+        ],
+        "rarity": "Rare",
+        "text": "{R}, Sacrifice Goblin Legionnaire: It deals 2 damage to any target.\n{W}, Sacrifice Goblin Legionnaire: Prevent the next 2 damage that would be dealt to any target this turn.",
+        "flavor": null,
+        "artist": "Mark Romanoski",
+        "number": "6",
+        "power": "2",
+        "toughness": "2",
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": "fnm",
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "APC",
+            "F07",
+            "PRM"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "F07",
+        "set_name": "Friday Night Magic 2007",
+        "id": "a37017df-8885-5aca-91fe-bb8576143c83",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pauper",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": null,
+        "foreign_names": null
+    },
+    "Engineered Plague": {
+        "name": "Engineered Plague",
+        "layout": "normal",
+        "mana_cost": "{2}{B}",
+        "cmc": 3.0,
+        "colors": [
+            "Black"
+        ],
+        "color_identity": [
+            "B"
+        ],
+        "names": null,
+        "type": "Enchantment",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Enchantment"
+        ],
+        "rarity": "Rare",
+        "text": "As Engineered Plague enters the battlefield, choose a creature type.\nAll creatures of the chosen type get -1/-1.",
+        "flavor": "\"The admixture of bitterwort in the viral brew has produced most favorable results.\"\n\u2014Phyrexian progress notes",
+        "artist": "Michael Sutfin",
+        "number": "7",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": "fnm",
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "7ED",
+            "F07",
+            "PRM",
+            "ULG",
+            "WC01"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "F07",
+        "set_name": "Friday Night Magic 2007",
+        "id": "adaa6ffd-1943-50cf-a58c-fc0810881491",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": null,
+        "foreign_names": null
+    },
+    "Goblin Ringleader": {
+        "name": "Goblin Ringleader",
+        "layout": "normal",
+        "mana_cost": "{3}{R}",
+        "cmc": 4.0,
+        "colors": [
+            "Red"
+        ],
+        "color_identity": [
+            "R"
+        ],
+        "names": null,
+        "type": "Creature \u2014 Goblin",
+        "supertypes": null,
+        "subtypes": [
+            "Goblin"
+        ],
+        "types": [
+            "Creature"
+        ],
+        "rarity": "Rare",
+        "text": "Haste (This creature can attack and {T} as soon as it comes under your control.)\nWhen Goblin Ringleader enters the battlefield, reveal the top four cards of your library. Put all Goblin cards revealed this way into your hand and the rest on the bottom of your library in any order.",
+        "flavor": null,
+        "artist": "Mark Romanoski",
+        "number": "8",
+        "power": "2",
+        "toughness": "2",
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": "fnm",
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "APC",
+            "DD1",
+            "DDT",
+            "EVG",
+            "F07",
+            "M20",
+            "PRM",
+            "VMA"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "F07",
+        "set_name": "Friday Night Magic 2007",
+        "id": "8ed851f6-2a0d-5ec2-894b-b4f1d94c9d67",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Restricted"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pioneer",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2019-07-12",
+                "text": "If an effect refers to a \u201c[subtype] spell\u201d or \u201c[subtype] card,\u201d it refers only to a spell or card that has that subtype. For example, Goblin Gathering is a card that creates Goblins and features Goblins in its illustration, but it isn\u2019t a Goblin card."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Wing Shards": {
+        "name": "Wing Shards",
+        "layout": "normal",
+        "mana_cost": "{1}{W}{W}",
+        "cmc": 3.0,
+        "colors": [
+            "White"
+        ],
+        "color_identity": [
+            "W"
+        ],
+        "names": null,
+        "type": "Instant",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Instant"
+        ],
+        "rarity": "Rare",
+        "text": "Target player sacrifices an attacking creature.\nStorm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
+        "flavor": null,
+        "artist": "Daren Bader",
+        "number": "9",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": "fnm",
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "C14",
+            "C17",
+            "F07",
+            "IMA",
+            "MB1",
+            "MH1",
+            "PRM",
+            "SCG",
+            "WC03",
+            "WC04"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "F07",
+        "set_name": "Friday Night Magic 2007",
+        "id": "fb2ec505-aec1-5839-afb5-fbfb65ecc49a",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2019-06-14",
+                "text": "If you cast Wing Shards after combat damage has been dealt, only creatures that survived combat can be sacrificed."
+            },
+            {
+                "date": "2019-06-14",
+                "text": "An \u201cattacking creature\u201d is one that has been declared as an attacker or put onto the battlefield attacking during a turn\u2019s combat. Unless that creature leaves combat, it continues to be an attacking creature through the end of combat step, even if the player it was attacking has left the game or the planeswalker it was attacking has left combat."
+            },
+            {
+                "date": "2019-06-14",
+                "text": "Wing Shards doesn\u2019t target the creature to be sacrificed. The target player chooses the creature as it resolves."
+            },
+            {
+                "date": "2019-06-14",
+                "text": "The copies storm creates are created on the stack, so they\u2019re not cast. Abilities that trigger when a player casts a spell (such as storm) won\u2019t trigger."
+            },
+            {
+                "date": "2019-06-14",
+                "text": "Storm counts spells cast before the spell with storm was cast. Spells cast after the spell with storm was cast but before the storm ability resolves aren\u2019t counted."
+            },
+            {
+                "date": "2019-06-14",
+                "text": "The storm ability and the copies it creates all resolve before the spell with storm. They resolve even if the spell with storm is countered."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Cabal Coffers": {
+        "name": "Cabal Coffers",
+        "layout": "normal",
+        "mana_cost": null,
+        "cmc": 0.0,
+        "colors": null,
+        "color_identity": [
+            "B"
+        ],
+        "names": null,
+        "type": "Land",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Land"
+        ],
+        "rarity": "Rare",
+        "text": "{2}, {T}: Add {B} for each Swamp you control.",
+        "flavor": "Deep within the Cabal's vault, the Mirari pulsed like a dead sun-and its darkness radiated across Otaria.",
+        "artist": "Don Hazeltine",
+        "number": "10",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": "fnm",
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "F07",
+            "HOP",
+            "MH2",
+            "PRM",
+            "TOR"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "F07",
+        "set_name": "Friday Night Magic 2007",
+        "id": "601ae15b-f7b8-5a06-b0e1-6f769d42944b",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Modern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2021-06-18",
+                "text": "The mana ability of Cabal Coffers counts each land you control with the subtype Swamp, not just ones named Swamp."
+            }
+        ],
+        "foreign_names": null
+    },
+    "Roar of the Wurm": {
+        "name": "Roar of the Wurm",
+        "layout": "normal",
+        "mana_cost": "{6}{G}",
+        "cmc": 7.0,
+        "colors": [
+            "Green"
+        ],
+        "color_identity": [
+            "G"
+        ],
+        "names": null,
+        "type": "Sorcery",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Sorcery"
+        ],
+        "rarity": "Rare",
+        "text": "Create a 6/6 green Wurm creature token.\nFlashback {3}{G} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+        "flavor": null,
+        "artist": "Kev Walker",
+        "number": "11",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": "fnm",
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "DDS",
+            "EMA",
+            "F07",
+            "HA3",
+            "MB1",
+            "ODY",
+            "PRM",
+            "VMA",
+            "WC02",
+            "WC03"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "F07",
+        "set_name": "Friday Night Magic 2007",
+        "id": "b97ead70-4769-53bd-bfaa-2f2560f5388c",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Gladiator",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historic",
+                "legality": "Legal"
+            },
+            {
+                "format": "Historicbrawl",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Penny",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": null,
+        "foreign_names": null
+    },
+    "Force Spike": {
+        "name": "Force Spike",
+        "layout": "normal",
+        "mana_cost": "{U}",
+        "cmc": 1.0,
+        "colors": [
+            "Blue"
+        ],
+        "color_identity": [
+            "U"
+        ],
+        "names": null,
+        "type": "Instant",
+        "supertypes": null,
+        "subtypes": null,
+        "types": [
+            "Instant"
+        ],
+        "rarity": "Rare",
+        "text": "Counter target spell unless its controller pays {1}.",
+        "flavor": null,
+        "artist": "Bryon Wackwitz",
+        "number": "12",
+        "power": null,
+        "toughness": null,
+        "loyalty": null,
+        "multiverse_id": null,
+        "variations": null,
+        "watermark": "fnm",
+        "border": null,
+        "timeshifted": null,
+        "hand": null,
+        "life": null,
+        "release_date": null,
+        "starter": null,
+        "printings": [
+            "5ED",
+            "7ED",
+            "DDJ",
+            "F07",
+            "J21",
+            "LEG",
+            "ME3",
+            "PRM",
+            "WC98"
+        ],
+        "original_text": null,
+        "original_type": null,
+        "source": null,
+        "image_url": null,
+        "set": "F07",
+        "set_name": "Friday Night Magic 2007",
+        "id": "cad98fc8-a5e4-5705-b21a-6e46ca571119",
+        "legalities": [
+            {
+                "format": "Commander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Duel",
+                "legality": "Legal"
+            },
+            {
+                "format": "Legacy",
+                "legality": "Legal"
+            },
+            {
+                "format": "Pauper",
+                "legality": "Legal"
+            },
+            {
+                "format": "Paupercommander",
+                "legality": "Legal"
+            },
+            {
+                "format": "Premodern",
+                "legality": "Legal"
+            },
+            {
+                "format": "Vintage",
+                "legality": "Legal"
+            }
+        ],
+        "rulings": [
+            {
+                "date": "2004-10-04",
+                "text": "The payment is optional."
+            }
+        ],
+        "foreign_names": null
+    }
+}

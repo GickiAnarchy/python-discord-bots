@@ -24,6 +24,7 @@ class MTGCog(commands.Cog):
         self.saveList = MTGList()
         self.codenames = []
         self.nameindex = 0
+        self.schedOn = False
         self.setupVars()       
 
 
@@ -33,7 +34,12 @@ class MTGCog(commands.Cog):
             self.sets = Set.all()
         else:
             print("Sets list is not None")
-        self.schedOn = False
+        if self.schedOn == False:
+            chan = self.client.get_channel(911721005658038355)
+            self.schedOn = True
+            #await chan.send("..HourlyMessage")
+        else:
+            self.schedOn = False
 
 
     @commands.command()
@@ -91,7 +97,7 @@ class MTGCog(commands.Cog):
     async def randomCard(self, ctx):
         print("randomCard")
         if self.isLoaded:
-            rancard = random.choice(cards)
+            rancard = random.choice(self.cards)
             em = nextcord.Embed(title = rancard.name)
             em.set_footer(text = rancard.id)            
             if rancard.image_url == None:
@@ -158,7 +164,6 @@ class MTGCog(commands.Cog):
 
 
     @commands.command()
-    @commands.has_role("Cool Kid")
     async def HourlyMessage(self, ctx):
         if not self.schedOn:
             await ctx.send("ERROR: schedOn is False. Please set to on.")
@@ -185,10 +190,14 @@ class MTGCog(commands.Cog):
         await self.getCard(ctx, sched = True)
         await self.showCard(ctx)
 
-
+            
+        
+            
+  
 
 ##################################################################
 ##################################################################
 
 def setup(client):
     client.add_cog(MTGCog(client))
+    
