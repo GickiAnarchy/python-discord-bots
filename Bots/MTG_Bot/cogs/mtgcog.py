@@ -11,7 +11,7 @@ import datetime
 
 thisfolder = os.path.abspath(os.path.dirname(__file__))
 setspath = f"{thisfolder}/sets/"
-
+urlpath = f"{thisfolder}/urls/"
 
 class MTGCog(commands.Cog):
     def __init__(self, client):
@@ -32,6 +32,7 @@ class MTGCog(commands.Cog):
         self.setupVars()
         self.setupURLs()
 
+
     def setupURLs(self):
         if os.path.exists(f"{self.urlfile}"):
             with open(f"{self.urlfile}", "r") as f:
@@ -47,47 +48,61 @@ class MTGCog(commands.Cog):
                     self.urls = f.readliness()
                 f.close()
 
-    def saveURLs(self):
+
+    def saveURLs(self, fname):
         if not self.isLoaded:
-            return
+          return
         for c in self.cardsWrap:
-            u = c.imgurl
-            if u == None or "":
-                continue
-            if u in self.urls:
-                continue
-            self.urls.append(f"{u.strip()}")
-        with open(self.urlfile, "w") as f:
-            i = 0
-            for u in self.urls:
-                f.write(u)
-                i += 1
-                print(str(i))
-            f.close()
+          u = c.imgurl
+          if u == None or "":
+            continue
+          #if u in self.urls:
+          #  continue
+          self.urls.append(f"{u.strip()}")
+        with open(f"urls/{fname}", "w") as f:
+          i = 0
+          for u in self.urls:
+            f.write(u)
+            i += 1
+            print(str(i))
+          f.close()
+
 
     def setupVars(self):
+      # Makes url folder if not there
+        if not os.path.isdir(urlpath):
+          os.mkdir(urlpath)
+      # Makes sets folder if not there
         if self.sets == None:
-            self.sets = Set.all()
+          self.sets = Set.all()
         else:
-            print("Sets list is not None")
-        if self.schedOn == False:
-            chan = self.client.get_channel(911721005658038355)
-            self.schedOn = True
-            #await chan.send("..HourlyMessage")
-        else:
-            self.schedOn = False
+          print("Sets list is not None")
+      # Sets schedSwitch to True
+      # Sets self.chan as the General channel in discord server
+        self.chan = self.client.get_channel(911721005658038355)
+        self.schedOn = True
+        
+
 
     @commands.command()
     @commands.has_role("Cool Kid")
     async def saveallurls(self, ctx):
-        await ctx.send("this will be a few minutes..", delete_after=20)
-        self.allcards = Card.where(language="English").all()
+      for set in self.sets:
+        await ctx.send("One set at a time..", delete_after=20)
+        fname = f"{set.code_URL}.fa"
+        if os.path.exists(fname):
+          print(f"{fname} already exists")
+          continue
+        cur_set = set
+        self.allcards = Card.where(language="English").where(set = cur_set.code).all()
         await ctx.send("almost done..", delete_after=2)
         self.cardsWrap = []
         for c in self.allcards:
             wrapped = MTGCard(c)
             self.cardsWrap.append(wrapped)
-        self.saveURLs()
+        self.saveURLs(fname)
+        await ctx.send(f"{cur_set.name} has been saved")
+
 
     @commands.command()
     async def listsets(self, ctx):
@@ -110,6 +125,7 @@ class MTGCog(commands.Cog):
                 st = ""
         await ctx.send(embed=emb)
 
+
     @commands.command()
     async def choose(self, ctx):
         print("choose")
@@ -128,9 +144,7 @@ class MTGCog(commands.Cog):
                 return m.author == ctx.author
 
         try:
-            msg = await self.client.wait_for('message',
-                                             check=is_correct,
-                                             timeout=30.0)
+            msg = await self.client.wait_for('message',check =  is_correct,timeout=30.0)
         except asyncio.TimeoutError:
             return await ctx.send("Sorry, I can't wait forever.")
         await ctx.send("gathering cards....")
@@ -142,8 +156,8 @@ class MTGCog(commands.Cog):
         self.isLoaded = True
         self.saveList.addCards(self.cardsWrap)
         await ctx.send(
-            f"{self.codenames[self.nameindex]} cards loaded..  Use ..randomCard"
-        )
+            f"{self.codenames[self.nameindex]} cards loaded..  Use ..randomCard")
+
 
     @commands.command(aliases=["showrandom", "rancard", "random"])
     async def randomCard(self, ctx):
@@ -160,6 +174,7 @@ class MTGCog(commands.Cog):
             await ctx.send("No cards are loaded")
         await ctx.send(embed=em)
 
+
     @commands.command()
     async def getCard(self, ctx, isDict=False, sched=False):
         print("getCard")
@@ -173,6 +188,7 @@ class MTGCog(commands.Cog):
                 await ctx.send(f"{self.myCard.getDict}")
                 await self.showCard(ctx)
 
+
     @commands.command()
     async def showCard(self, ctx):
         print("showCard")
@@ -183,12 +199,14 @@ class MTGCog(commands.Cog):
         em.set_image(url=f"{self.myCard.imgurl}")
         await ctx.send(embed=em)
 
+
     @commands.command()
     async def saveSet(self, ctx):
         print("saveSet")
         if self.isLoaded:
             self.saveList.saveCards()
             await ctx.send(f"Set file saved")
+
 
     @commands.command(aliases=["dlset", "downloadfile", "dlfile"])
     async def downloadset(self, ctx):
@@ -198,6 +216,7 @@ class MTGCog(commands.Cog):
             file = self.saveList.getFile
         nxfile = nextcord.File(file)
         await ctx.send(file=nxfile)
+
 
     @commands.command()
     @commands.has_role("Cool Kid")
@@ -209,6 +228,7 @@ class MTGCog(commands.Cog):
             self.schedOn = False
             print("Scheduled Message is set to FALSE")
 
+
     @commands.command()
     async def HourlyMessage(self, ctx):
         if not self.schedOn:
@@ -219,6 +239,7 @@ class MTGCog(commands.Cog):
             wait_time = (then - now).total_seconds()
             await self.schedChoose(ctx)
             await asyncio.sleep(wait_time)
+
 
     @commands.command(hidden=True)
     @commands.has_role("Cool Kid")

@@ -21,11 +21,9 @@ async def on_ready():
             client.load_extension(f"cogs.{filename[:-3]}")
             c += 1
     print("Bot is ready")
-    await client.change_presence(
-        status=nextcord.Status.online,
-        activity=nextcord.Game("Magic: The Gathering Card Bot"))
+    await client.change_presence(status=nextcord.Status.online, activity=nextcord.Game("Magic: The Gathering Card Bot"))
     chan = client.get_channel(911721005658038355)
-    await chan.send("I'm back online ", delete_after=5)
+    await chan.send("I'm back online ", delete_after=120)
 
 
 @client.command()
