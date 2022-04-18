@@ -207,6 +207,25 @@ class MTGCog(commands.Cog):
             await ctx.send(f"Set file saved")
 
 
+    @commands.command()
+    @commands.has_role("Cool Kid")
+    async def loadURLS(self, doWrite = False):
+      self.all_urls = []
+      for sfile in os.listdir(f"{urlpath}"):
+        with open(f"{urlpath}{sfile}", "r") as f:
+          templist = f.readlines()
+          for url in templist:
+            self.all_urls.append(url)
+          templist = []
+          f.close()
+        print(str(len(self.all_urls)))
+      if doWrite:
+        with open("ALL_URLS.FA", "W+") as allurls:
+          for u in self.all_urls:
+            allurls.write(u)
+          allurls.close()
+
+
     @commands.command(aliases=["dlset", "downloadfile", "dlfile"])
     async def downloadset(self, ctx):
         if not self.isLoaded:
