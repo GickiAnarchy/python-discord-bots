@@ -30,12 +30,12 @@ class MTGCog(commands.Cog):
         self.schedOn = False
         self.urls = []
         self.setupVars()
-        self.setupURLs()
+        #self.setupURLs()
 
 
     def setupURLs(self):
-        if os.path.exists(f"{self.urlfile}"):
-            with open(f"{self.urlfile}", "r") as f:
+        if os.path.exists(f"urls/{self.urlfile}"):
+            with open(f"urls/{self.urlfile}", "r") as f:
                 if not self.urls[0] == None:
                     cpyList = self.urls
                     self.urls = f.readlines()
@@ -50,8 +50,7 @@ class MTGCog(commands.Cog):
 
 
     def saveURLs(self, fname):
-        if not self.isLoaded:
-          return
+        self.urls = []
         for c in self.cardsWrap:
           u = c.imgurl
           if u == None or "":
@@ -59,7 +58,7 @@ class MTGCog(commands.Cog):
           #if u in self.urls:
           #  continue
           self.urls.append(f"{u.strip()}")
-        with open(f"urls/{fname}", "w") as f:
+        with open(f"{urlpath}{fname}", "w+") as f:
           i = 0
           for u in self.urls:
             f.write(u)
@@ -89,8 +88,8 @@ class MTGCog(commands.Cog):
     async def saveallurls(self, ctx):
       for set in self.sets:
         await ctx.send("One set at a time..", delete_after=20)
-        fname = f"{set.code_URL}.fa"
-        if os.path.exists(fname):
+        fname = f"{set.code}_URL.fa"
+        if os.path.exists(f"{urlpath}{fname}"):
           print(f"{fname} already exists")
           continue
         cur_set = set
