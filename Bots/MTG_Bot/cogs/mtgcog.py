@@ -212,17 +212,21 @@ class MTGCog(commands.Cog):
     async def loadURLS(self, doWrite = False):
       self.all_urls = []
       for sfile in os.listdir(f"{urlpath}"):
+        xx = True
         with open(f"{urlpath}{sfile}", "r") as f:
-          templist = f.readlines()
-          for url in templist:
-            self.all_urls.append(url)
-          templist = []
+          while xx:
+              line = f.readline()
+              if not line:
+                  xx = False
+              else:
+                  self.all_urls.append(line)
           f.close()
         print(str(len(self.all_urls)))
       if doWrite:
-        with open("ALL_URLS.FA", "W+") as allurls:
+        with open("ALL_URLS.FA", "a") as allurls:
           for u in self.all_urls:
             allurls.write(u)
+            allurls.write("\n")
           allurls.close()
 
 
@@ -281,4 +285,5 @@ class MTGCog(commands.Cog):
 
 
 def setup(client):
-    client.add_cog(MTGCog(client))
+    pass
+    #client.add_cog(MTGCog(client))
